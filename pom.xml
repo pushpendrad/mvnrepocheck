@@ -24,7 +24,7 @@
             </extension>
                   
          <extension>
-            <groupId>org.apache.stratos</groupId>
+            <groupId>org.apache.jclouds.provider</groupId>
             <artifactId>google-storage-wagon</artifactId>
             <version>1.0</version>
           </extension>
