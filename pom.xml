@@ -23,6 +23,14 @@
                 <version>1.0</version>
             </extension>
         </extensions>
+             
+       <extensions>
+         <extension>
+            <groupId>org.apache.stratos</groupId>
+            <artifactId>google-storage-wagon</artifactId>
+            <version>1.0</version>
+          </extension>
+    </extensions>
       <!--  <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
