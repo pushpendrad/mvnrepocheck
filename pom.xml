@@ -64,6 +64,11 @@
          <!-- https://mvnrepository.com/artifact/com.google.http-client/google-http-client -->
 <dependencies>
          <dependency>
+  <groupId>org.apache.maven.wagon</groupId>
+  <artifactId>wagon</artifactId>
+  <version>3.3.1</version>
+</dependency>
+         <dependency>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client</artifactId>
     <version>1.23.0</version>
