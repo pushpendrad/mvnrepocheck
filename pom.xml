@@ -45,11 +45,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>my-repo-bucket-snapshot</id>
-            <url>gs://mavenrepository-a1/snapshot</url>
+            <url>gs://mavenrepository-a1</url>
         </snapshotRepository>
         <repository>
             <id>my-repo-bucket-release</id>
-            <url>gs://mavenrepository-a1/release</url>
+            <url>gs://mavenrepository-a1</url>
         </repository>
     </distributionManagement>
    <repositories>
