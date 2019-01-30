@@ -14,7 +14,7 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
-
+<!--
     <build>
         <extensions>
             <extension>
@@ -23,7 +23,7 @@
                 <version>1.0</version>
             </extension>
         </extensions>
-      <!--  <plugins>
+        <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
