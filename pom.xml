@@ -52,6 +52,14 @@
             <url>gs://mavenrepository-a1/release</url>
         </repository>
     </distributionManagement>
+   <repositories>
+    <repository>
+      <id>my-internal-site</id>
+      <url>gs://mavenrepository-a1</url>
+    </repository>
+  </repositories>
+         
+         
          
          <!-- https://mvnrepository.com/artifact/com.google.http-client/google-http-client -->
 <dependencies>
