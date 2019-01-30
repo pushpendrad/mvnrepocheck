@@ -16,14 +16,14 @@
     </properties>
 
     <build>
-<!--        <extensions>
+      <extensions>
             <extension>
                 <groupId>com.gkatzioura.maven.cloud</groupId>
                 <artifactId>google-storage-wagon</artifactId>
                 <version>1.0</version>
             </extension>
         </extensions>
-        <plugins>
+<!--        <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
