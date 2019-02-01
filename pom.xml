@@ -45,22 +45,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>my-repo-bucket-snapshot</id>
-            <url>gs://mavenrepository-a1</url>
+            <url>gs://mavenrepository-a1/snapshot</url>
         </snapshotRepository>
         <repository>
             <id>my-repo-bucket-release</id>
-            <url>gs://mavenrepository-a1</url>
+            <url>gs://mavenrepository-a1/release</url>
         </repository>
-    </distributionManagement>
-   <repositories>
-    <repository>
-      <id>my-internal-site</id>
-      <url>gs://mavenrepository-a1</url>
-    </repository>
-  </repositories>
-         
-         
-         
+    </distributionManagement>        
          <!-- https://mvnrepository.com/artifact/com.google.http-client/google-http-client -->
 <dependencies>
          <dependency>
